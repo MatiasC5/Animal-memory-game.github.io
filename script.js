@@ -97,8 +97,6 @@ function checkForMatch() {
 
     if (optionOneId == optionTwoId) {
         cards[optionOneId].setAttribute('src', 'images/download.jfif')
-        cards[optionTwoId].setAttribute('src', 'images/download.jfif')
-        cards[optionThreeId].setAttribute('src', 'images/download.jfif')
     }
     else if (cardChosen[0] == cardChosen[1] && cardChosen[0] == cardChosen[2] && cardChosen[2] == cardChosen[1]) {
         cards[optionOneId].setAttribute('src', `images/${cardChosen[0]}.jpeg`)
