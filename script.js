@@ -69,7 +69,7 @@ const elementsArray = [
  
     
 ]
-elementsArray.sort(() => 0.5 - Math.random())
+elementsArray.sort(() => Math.random())
 
 let cardChosen = []
 let cardChosenId = []
